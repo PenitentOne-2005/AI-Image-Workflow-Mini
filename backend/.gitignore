@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+package-lock.json? # Опционально, если используешь pnpm/yarn вместо npm
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Testing & Coverage
+coverage/
+.nyc_output/
