@@ -42,7 +42,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone <repository-url>
+git clone https://github.com/PenitentOne-2005/AI-Image-Workflow-Mini
 cd AI-Image-Workflow-Mini
 ```
 
